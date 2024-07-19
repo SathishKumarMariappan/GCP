@@ -1,8 +1,16 @@
 {
-    "name": "sampel",
-    "version": "1.0.0",
-    "main":"index.js",
-    "dependencies": {
-        "express": "^4.19.2"
-    }
+  "name": "sampel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"test node app\""
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
