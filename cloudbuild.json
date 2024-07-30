@@ -12,7 +12,7 @@
         },
         {
             "name": "gcr.io/cloud-builders/gsutil",
-            "args": ["cp", "-r", "gcp-ng/dist/gcp-ng/browser/*", "gs://gcp-cloud-build-20240719"]
+            "args": ["cp", "-r", "gcp-ng/dist/gcp-ng/browser/*", "gs://gcp-cloud-build-20240730"]
         }
     ],
     "timeout": "1200s",
