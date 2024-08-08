@@ -1,0 +1,14 @@
+function main() {
+    Group.run({
+      scenario: myScenario,
+      users: 10,
+      profile: '5s'
+    });
+  }
+  
+  function myScenario() {
+    http('https://google.com')
+      .get('')
+      .get('unknown')
+      .sync()
+  }
