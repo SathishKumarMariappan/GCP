@@ -17,9 +17,9 @@
         },
         {
             "name": "gcr.io/cloud-builders/gsutil",
-            "args": ["cp", "-r", "gcp-ng/dist/gcp-ng/browser/*", "gs://gcp-cloud-build-20250322"]
+            "args": ["cp", "-r", "gcp-ng/dist/gcp-ng/browser/*", "gs://gcp-cloud-build-20250410"]
         }
     ],
     "timeout": "1200s",
-    "logsBucket": "gs://gcp-cloud-build-20250322-logs"
+    "logsBucket": "gs://gcp-cloud-build-20250410-logs"
 }
