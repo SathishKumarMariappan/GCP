@@ -8,5 +8,5 @@ resource "google_storage_bucket" "storageBucket" {
 
 resource "google_storage_bucket" "storageBucket2" {
   name          = "demo-20240802"
-  location      = "EU"
+  location      = "US"
 }

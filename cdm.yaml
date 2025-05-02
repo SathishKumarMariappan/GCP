@@ -1,0 +1,13 @@
+resources:
+- name: 20250502cmddemo
+  type: storage.v1.bucket
+  properties:
+    name: 20250502cmddemobucket
+    location: US
+    storageClass: STANDARD
+- name: 20250502sample2
+  type: storage.v1.bucket
+  properties:
+    name: 20250502sample2bucket
+    location: US
+    storageClass: STANDARD
