@@ -11,3 +11,5 @@ resources:
     name: 20250502sample2bucket
     location: US
     storageClass: STANDARD
+
+# gcloud deployment-manager deployments create/update demodep --config cdm.yaml --project
